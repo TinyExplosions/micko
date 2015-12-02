@@ -1,0 +1,27 @@
+{
+  "name": "micko",
+  "version": "1.0.0",
+  "description": "Hearne's Vinyl Playground, takes markdown and turns to a webpage",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js && surge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinyExplosions/micko.git"
+  },
+  "keywords": [
+    "markdown",
+    "music"
+  ],
+  "author": "Al Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TinyExplosions/micko/issues"
+  },
+  "homepage": "https://github.com/TinyExplosions/micko#readme",
+  "dependencies": {
+    "marked": "^0.3.5",
+    "surge": "^0.17.3"
+  }
+}
